@@ -5,7 +5,8 @@ you need to install MLX, pytorch and rdkit, just create a conda env and install 
 
 This is an example of usage of MLX implementation of AttentiveFP original code (code is not exactly similar to the paper "equations"!).
 
-THe goal is also to have a benchmark of the MLX, Pytorch Jax and Tensorflow implementation on GPU (Apple Metal)
+
+The goal is also to have a benchmark of the MLX, Pytorch Jax and Tensorflow implementation on GPU (Apple Metal) using exactly the same model.
 
 To do:
 - [x] Add Pytorch version

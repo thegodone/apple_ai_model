@@ -1,4 +1,4 @@
-# AI Apple Model AttentiveFP based on original(*) (Dense version)
+# AI Apple Model AttentiveFP based on original(*) (this is a "Dense" graph version)
 
 You need a M1/M2/M3/... mac!
 

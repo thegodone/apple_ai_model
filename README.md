@@ -13,6 +13,7 @@ The goal is also to have a benchmark of the MLX, Pytorch Jax and Tensorflow impl
 I use the ESOL dataset for the experiment.
 
 To do:
+- [x] Add MLX version
 - [x] Add Pytorch version
 - [ ] Add Jax version
 - [ ] Add Tensorflow version

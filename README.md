@@ -8,7 +8,7 @@ This is an example of usage of MLX implementation of AttentiveFP original code (
 THe goal is also to have a benchmark of the MLX, Pytorch Jax and Tensorflow implementation on GPU (Apple Metal)
 
 To do:
-[x] Add Pytorch version
-[ ] Add Jax version
-[ ] Add Tensorflow version
+- [x] Add Pytorch version
+- [ ] Add Jax version
+- [ ] Add Tensorflow version
 

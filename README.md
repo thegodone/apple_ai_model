@@ -1,4 +1,4 @@
-# AI Apple Model AttentiveFP original (Dense version)
+# AI Apple Model AttentiveFP based on original(*) (Dense version)
 
 You need a M1/M2/M3/... mac!
 
@@ -17,3 +17,4 @@ To do:
 - [ ] Add Jax version
 - [ ] Add Tensorflow version
 
+(*) original version https://github.com/OpenDrugAI/AttentiveFP

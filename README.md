@@ -19,4 +19,4 @@ To do:
 
 (*) original version https://github.com/OpenDrugAI/AttentiveFP
 
-License (do what you what ;-))
+License (do what you want ;-))

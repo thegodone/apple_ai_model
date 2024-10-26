@@ -10,6 +10,8 @@ This is an example of usage of MLX implementation of AttentiveFP original code (
 
 The goal is also to have a benchmark of the MLX, Pytorch Jax and Tensorflow implementation on GPU (Apple Metal) using exactly the same model.
 
+I use the ESOL dataset for the experiment.
+
 To do:
 - [x] Add Pytorch version
 - [ ] Add Jax version

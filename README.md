@@ -18,3 +18,5 @@ To do:
 - [ ] Add Tensorflow version
 
 (*) original version https://github.com/OpenDrugAI/AttentiveFP
+
+License (do what you what ;-))

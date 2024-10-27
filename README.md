@@ -23,9 +23,9 @@ I use the ESOL dataset for the experiment.
 use the jupyter notebooks to reproduce the results.
 
 To do:
-- [x] Add MLX version
-- [x] Add Pytorch version
-- [x] Add Tensorflow version
+- [x] Add MLX version (0.19.1)
+- [x] Add Pytorch version (2.5)
+- [x] Add Tensorflow version (2.15.0)
 - [ ] Add Jax version
 
 (*) original version https://github.com/OpenDrugAI/AttentiveFP

@@ -6,7 +6,7 @@ You need to install MLX, pytorch and rdkit, just create a conda env and install 
 
 Clone the repository and access the cloned repository 
 ````
-git clone ... & cd
+git clone https://github.com/thegodone/apple_ai_model & cd apple_ai_model
 ````
 
 please create a saved_models folder to store torch model backup 
@@ -20,7 +20,7 @@ The goal is also to have a benchmark of the MLX, Pytorch Jax and Tensorflow impl
 
 I use the ESOL dataset for the experiment.
 
-use the jupyter notebooks to reproduce the results.
+Run jupyter notebooks to reproduce the results. Tensorflow and MLX are not using CPU, while pytorch is using both intensively.
 
 To do:
 - [x] Add MLX version (0.19.1)

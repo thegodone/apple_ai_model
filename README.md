@@ -4,12 +4,12 @@ You need a M1/M2/M3/... mac!
 
 You need to install MLX, pytorch and rdkit, just create a conda env and install MLX, pytorch and rdkit using via pip or conda.
 
-Clone the repository and access the cloned repository 
+Clone the repository and access the cloned repository (run in terminal the following command) 
 ````
-git clone https://github.com/thegodone/apple_ai_model & cd apple_ai_model
+git clone https://github.com/thegodone/apple_ai_model && cd apple_ai_model
 ````
 
-please create a saved_models folder to store torch model backup 
+please create a saved_models folder to store torch model backup (run in terminal the following command)
 ````
 mkdir saved_models
 ````

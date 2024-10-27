@@ -15,8 +15,8 @@ I use the ESOL dataset for the experiment.
 To do:
 - [x] Add MLX version
 - [x] Add Pytorch version
+- [x] Add Tensorflow version
 - [ ] Add Jax version
-- [ ] Add Tensorflow version
 
 (*) original version https://github.com/OpenDrugAI/AttentiveFP
 

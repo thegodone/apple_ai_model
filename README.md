@@ -4,9 +4,15 @@ You need a M1/M2/M3/... mac!
 
 You need to install MLX, pytorch and rdkit, just create a conda env and install MLX, pytorch and rdkit using via pip or conda.
 
-Clone the repository and access the cloned repository (git clone ... & cd)
+Clone the repository and access the cloned repository 
+````
+git clone ... & cd
+````
 
-please create a saved_models folder to store torch model backup.
+please create a saved_models folder to store torch model backup 
+````
+mkdir saved_models
+````
 
 This is an example of usage of MLX implementation of AttentiveFP original code (code is not exactly similar to the paper "equations"!).
 

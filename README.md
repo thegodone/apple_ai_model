@@ -27,6 +27,9 @@ To do:
 - [x] Add Pytorch version (2.5)
 - [x] Add Tensorflow version (2.15.0)
 - [ ] Add Jax version
+- [ ] compare losses & performance (there is an important difference between the MLX, Pytorch and Tensorflow performances so far!)
+
+
 
 (*) original version https://github.com/OpenDrugAI/AttentiveFP
 

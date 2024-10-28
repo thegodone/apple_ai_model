@@ -88,13 +88,14 @@ class AttFP(nn.Module):
         batch_size, mol_length, num_atom_feat = atom_list.shape
         atom_feature = nn.leaky_relu(self.atom_fc(atom_list))
 
-        bond_neighbor = [bond_list[i][bond_degree_list[i]] for i in range(batch_size)]
-        bond_neighbor = mx.stack(bond_neighbor, axis=0)
-        
-                
-        atom_neighbor = [atom_list[i][atom_degree_list[i]] for i in range(batch_size)]
-        atom_neighbor = mx.stack(atom_neighbor, axis=0)
-        
+        #bond_neighbor = [bond_list[i][bond_degree_list[i]] for i in range(batch_size)]
+        #bond_neighbor = mx.stack(bond_neighbor, axis=0)       
+        #atom_neighbor = [atom_list[i][atom_degree_list[i]] for i in range(batch_size)]
+        #atom_neighbor = mx.stack(atom_neighbor, axis=0)
+
+        atom_neighbor = mx.take_along_axis(atom_list[..., None, :], atom_degree_list[..., None], axis=-3)
+        bond_neighbor = mx.take_along_axis(bond_list[..., None, :], bond_degree_list[..., None], axis=-3)
+
         neighbor_feature = mx.concatenate([atom_neighbor, bond_neighbor], axis=-1)
         
         neighbor_feature = nn.leaky_relu(self.neighbor_fc(neighbor_feature))
@@ -135,8 +136,9 @@ class AttFP(nn.Module):
         activated_features = nn.leaky_relu(atom_feature)
         
         for d in range(self.radius-1):
-            neighbor_feature = [activated_features[i][atom_degree_list[i]] for i in range(batch_size)]
-            neighbor_feature = mx.stack(neighbor_feature, axis=0)
+            #neighbor_feature = [activated_features[i][atom_degree_list[i]] for i in range(batch_size)]
+            #neighbor_feature = mx.stack(neighbor_feature, axis=0)
+            neighbor_feature = mx.take_along_axis(activated_features[..., None, :], atom_degree_list[..., None], axis=-3)
            
             atom_feature_expand = mx.expand_dims(activated_features, -2)
             atom_feature_expand = mx.repeat(atom_feature_expand, max_neighbor_num, axis=-2)

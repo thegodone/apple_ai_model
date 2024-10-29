@@ -23,9 +23,9 @@ I use the ESOL dataset for the experiment.
 Run jupyter notebooks to reproduce the results. Tensorflow and MLX are not using CPU, while pytorch is using both intensively.
 
 To do:
-- [x] Add MLX version (0.19.1)
-- [x] Add Pytorch version (2.5)
-- [x] Add Tensorflow version (2.15.0)
+- [x] Add MLX version (0.19.1) ->  0.28 sec / epochs using "fast" version : improving Dropout/Bernoulli in MLX and add compile, take_along_axis (aka gather), eval/train switch.
+- [x] Add Pytorch version (2.5) -> 0.46 sec / epochs
+- [x] Add Tensorflow version (2.15.0) -> 0.48 sec / epochs
 - [ ] compare losses & performance (there is an important difference between the MLX, Pytorch and Tensorflow performances so far!)
 - ([ ] Add Jax version (too slow compare to the  torch/tf implementation))
 

@@ -27,8 +27,8 @@ To do:
 - [x] Add Pytorch version (2.5) -> 0.46 sec / epochs
 - [x] Add Tensorflow version (2.15.0) -> 0.48 sec / epochs
 - [ ] compare losses & performance (there is an important difference between the MLX, Pytorch and Tensorflow performances so far!)
-- ([ ] Add Jax version (too slow compare to the  torch/tf implementation))
-
+- [ ] Add Jax version -> too slow compare to the other implementations!
+ 
 (*) original version https://github.com/OpenDrugAI/AttentiveFP
 
 License (do what you want ;-))

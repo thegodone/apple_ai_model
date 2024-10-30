@@ -22,6 +22,11 @@ I use the ESOL dataset for the experiment.
 
 Run jupyter notebooks to reproduce the results. Tensorflow and MLX are not using CPU, while pytorch is using both intensively.
 
+
+#Results shown a big difference in convergence between MLX and the two other packages:
+#after around 20 runs with MLX only few run have a performance closer to pytorch and tensorflow that are much more stable over the runs!
+
+
 To do:
 - [x] Add MLX version (0.19.1) ->  0.28 sec / epochs using "fast" version : improving Dropout/Bernoulli in MLX and add compile, take_along_axis (aka gather), eval/train switch.
 - [x] Add Pytorch version (2.5) -> 0.46 sec / epochs
